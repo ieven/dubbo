@@ -23,5 +23,9 @@
 	<bean class="com.alibaba.dubbo.demo.consumer.DemoAction" init-method="start">
 		<property name="demoService" ref="demoService" />
 	</bean>
+	
+	<!-- <bean class="com.alibaba.dubbo.demo.consumer.TestAction" init-method="start">
+		<property name="testService" ref="testService" />
+	</bean> -->
 
 </beans>
